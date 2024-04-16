@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToyotitaAI</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ToyotitaAI Beta</h1>
+        <h2 class="subtitulo">Inteligencia Artificial para la Predicción de Precios de Marcas Futuras</h2>
+        <form action="/" method="post">
+            <label for="company">Compañía:</label>
+            <select name="company" id="company">
+                <option value="AMZN">Amazon</option>
+                <option value="GOOGL">Alphabet (Google)</option>
+                <option value="MSFT">Microsoft</option>
+                <option value="TSLA">Tesla</option>
+                <option value="BABA">Alibaba</option>
+                <option value="CRM">Salesforce</option>
+                <option value="NFLX">Netflix</option>
+                <option value="PYPL">PayPal</option>
+                <option value="DIS">Disney</option>                
+            </select>
+            <label for="predicted_days">Días de Predicción:</label>
+            <select name="predicted_days" id="predicted_days">
+                <option value="30">30 días</option>
+                <option value="60">60 días</option>
+                <option value="90">90 días</option>
+            </select>
+            <input type="submit" value="Predecir">
+        </form>
+    </div>
+</body>
+</html>

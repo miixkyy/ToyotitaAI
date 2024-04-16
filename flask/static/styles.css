@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #FFEFD8; /* Cambia los colores a tu preferencia */
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+        position: relative;
+    overflow: hidden;
+}
+
+form {
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+    border: 1px solid #8B322C;
+    margin-top: 50px;
+    background: transparent; /* Cambia los colores a tu preferencia */
+}
+
+/* Estilo para hacer transparentes los elementos select, label y option */
+/* Estilo para hacer transparentes los elementos select, label y option */
+
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #edc7c7;
+    text-align: center;
+    font-size: 4rem;
+    background: #8B322C; /* Aplicar gradiente de fondo */
+    -webkit-background-clip: text; /* Permitir que el gradiente se muestre a través del texto */
+    -webkit-text-fill-color: transparent; /* Hacer el texto transparente para mostrar el gradiente de fondo */
+}
+
+h2.subtitulo {
+    font-size: 1.2rem; /* Tamaño de fuente más pequeño */
+    margin-top: 0.4rem; /* Espacio superior */
+    color: #ecd4d4; /* Color de texto más suave */
+    margin-bottom: 1rem;
+    background: black; /* Aplicar gradiente de fondo */
+    -webkit-background-clip: text; /* Permitir que el gradiente se muestre a través del texto */
+    -webkit-text-fill-color: transparent; /* Hacer el texto transparente para mostrar el gradiente de fondo */
+}
+
+label {
+    display: flex;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #000;
+    justify-content: left;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #8B322C;
+    border-radius: 50rem;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background: #8B322C; /* Cambia los colores a tu preferencia */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 50rem;
+    width: 100%;
+    padding: 12px;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background: #4e1915; /* Cambia los colores a tu preferencia */
+}

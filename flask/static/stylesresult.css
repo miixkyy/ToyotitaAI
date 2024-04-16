@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #FFEFD8; /* Fondo con gradiente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+div {
+    text-align: center; /* Alinea el texto al centro */
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #8B322C;
+    -webkit-background-clip: text; /* Para navegadores WebKit como Chrome y Safari */
+    -webkit-text-fill-color: transparent; /* Para navegadores WebKit */
+    margin-bottom: 20px;
+    font-size: 4rem;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #4793AF;
+    -webkit-background-clip: text; /* Para navegadores WebKit como Chrome y Safari */
+    -webkit-text-fill-color: transparent; /* Para navegadores WebKit */
+    margin-bottom: 10px;
+}
+
+
+img {
+    width: 600px; /* Ajusta el ancho según sea necesario */
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
